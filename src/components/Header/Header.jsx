@@ -62,7 +62,6 @@ function Header() {
                             isActive ? "text-blue-300 " : "text-gray-500"
                           } sm:pt-6 pt-3 sm:px-5 px-3 md:mr-4 duration-200 hover:border-t-2 hover:border-t-blue-300 text-xl`
                         }
-                        // className="px-6 py-2 duration-200 hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-500 rounded-full"
                       >
                         {item.name}
                       </NavLink>
@@ -88,7 +87,6 @@ function Header() {
                             : "text-blue-100"
                         } duration-200 lg:border-0 lg:p-0 w-full text-left px-6 py-2  `
                       }
-                      // className="px-6 py-2 duration-200 w-full text-left  "
                     >
                       {item.name}
                     </NavLink>
